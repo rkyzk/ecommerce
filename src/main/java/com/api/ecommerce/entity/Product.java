@@ -21,12 +21,9 @@ public class Product {
 	/** category */
 	private String category;
 	
-	/** image url */
-	private String imgUrl;
-	
-	/** available colors */
-	private String colors;
-	
 	/** product description */
 	private String description;
+	
+	/** image url */
+	private String imgUrl;
 }

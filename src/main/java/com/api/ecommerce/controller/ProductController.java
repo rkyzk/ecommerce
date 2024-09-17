@@ -14,12 +14,11 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-    @GetMapping("api.1.0/products")
+    @GetMapping("api/1.0/products")
     public ResponseEntity<?> getProducts() {
-    	try {
+//    	try {
     	    return ResponseEntity.ok(productService.findAll());
-    	} catch (Exception e) {
-    		return;
-    	}  	
+//    	} catch (Exception e) {
+//    	}  	
     }
 }
